@@ -4,6 +4,7 @@
   "name": "FAQ-default",
   "entityType": "faq",
   "fields": [
+    "c_activeOnSearch",
     "c_primaryCTA"
   ]
 }

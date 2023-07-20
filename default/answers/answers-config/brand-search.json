@@ -10,6 +10,7 @@
         "event"
       ],
       "name": "Events",
+      "savedSearchId": "1242434077",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
@@ -22,6 +23,40 @@
         },
         "name": {
           "textSearch": true
+        },
+        "time.start": {
+          "sortable": true
+        }
+      },
+      "sortBys": [
+        {
+          "buckets": [],
+          "type": "RELEVANCE"
+        },
+        {
+          "buckets": [],
+          "direction": "ASC",
+          "field": "time.start",
+          "type": "FIELD"
+        }
+      ],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "savedSearchId": "1242428678",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "question": {
+          "semanticTextSearch": true
         }
       },
       "sortBys": [],
@@ -32,6 +67,7 @@
         "restaurant"
       ],
       "name": "Restaurants",
+      "savedSearchId": "112002255",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
@@ -41,6 +77,15 @@
         },
         "builtin.location": {
           "nlpFilter": true
+        },
+        "c_promotingEvents.name": {
+          "nlpFilter": true
+        },
+        "c_restaurantFeatures": {
+          "facet": true
+        },
+        "c_restaurantType": {
+          "facet": true
         },
         "keywords": {
           "phraseMatch": true

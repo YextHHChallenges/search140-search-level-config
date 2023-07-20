@@ -1,6 +1,7 @@
 {
   "$id": "hq-1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
   "content": {
     "address": {
       "city": "Austin",

@@ -1,10 +1,8 @@
 {
   "$id": "Event-4",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
   "content": {
-    "c_featuredGuests": [
-      "Marty Morris - Founder \u0026 CEO"
-    ],
     "address": {
       "city": "Austin",
       "countryCode": "US",
@@ -12,7 +10,10 @@
       "postalCode": "78723",
       "region": "TX"
     },
-    "description": "We're proud to promote education! Each year we host \"Taco Math\", an event which focuses on simple arithmetic using tacos. This event also includes the famous \"Count your Tacos\" competition, where kids can guess the number of tacos in a giant taco pyramid and win prizes!",
+    "c_featuredGuests": [
+      "Marty Morris - Founder \u0026 CEO"
+    ],
+    "description": "We\u0027re proud to promote education! Each year we host \"Taco Math\", an event which focuses on simple arithmetic using tacos. This event also includes the famous \"Count your Tacos\" competition, where kids can guess the number of tacos in a giant taco pyramid and win prizes!",
     "isFreeEvent": true,
     "keywords": [
       "School"
