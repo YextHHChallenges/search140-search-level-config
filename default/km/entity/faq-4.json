@@ -1,0 +1,18 @@
+{
+  "$id": "faq-4",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_primaryCTA": {
+      "label": "Search for Nearby Restaurants",
+      "link": "http://answers.turtleheadtacos.com",
+      "linkType": "URL"
+    },
+    "answer": "Yes, all of our Restaurants are open on the weekends! For more information on location hours, search for your closest location.",
+    "keywords": [
+      "hours"
+    ],
+    "name": "Are you open on the weekends?"
+  },
+  "entityType": "faq",
+  "labels": []
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "brand-search",
+  "name": "Brand Search",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "events": {
+      "entityTypes": [
+        "event"
+      ],
+      "name": "Events",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "restaurants": {
+      "entityTypes": [
+        "restaurant"
+      ],
+      "name": "Restaurants",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.hours": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "synonyms": {
+    "oneWay": [
+      {
+        "phrase": "location",
+        "synonyms": [
+          "restaurant"
+        ]
+      },
+      {
+        "phrase": "food joint",
+        "synonyms": [
+          "restaurant"
+        ]
+      }
+    ],
+    "synonymSet": [],
+    "normalization": []
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "popularQueriesBlacklistedRegex": [],
+    "universalPrompts": [],
+    "verticalPrompts": {
+      "events": [
+        "[[name]]"
+      ],
+      "restaurants": [
+        "[[name]]"
+      ]
+    }
+  }
+}
